@@ -5,11 +5,13 @@
 - [Medium](https://medium.com/@paulcowgill)
 - [Website](https://cowgill.io/)
 
-This info is available at [github.com/pcowgill/talks](https://github.com/pcowgill/talks)
+### This workshop
+
+The markdown file will all of this info we'll be talking about is available at [github.com/pcowgill/talks](https://github.com/pcowgill/talks)
 
 In this workshop, let's get acquainted with the different components of the crypto / web3 stack and the current state of blockchain technology by using some tools from the Ethereum ecosystem.
 
-### What if any of you have questions?
+### Any questions?
 
 Feel free to interrupt me at any time. Freeform / real-time questions work best for me.
 
@@ -69,7 +71,7 @@ Here are some easier-to-use but (for now) less fully featured alternatives to Et
 
 - [Ganache](https://truffleframework.com/ganache)
 
-Others include [Google](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics), [ethplorer](https://ethplorer.io/), [scout.cool](https://www.scout.cool/), [dappboard](http://dappboard.com/), [trivial](https://trivial.co/), [Elementus](https://elementus.io/), [Dappradar](https://dappradar.com)
+Others include [Google's BigQuery dataset for Ethereum](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics), [ethplorer](https://ethplorer.io/), [scout.cool](https://www.scout.cool/), [dappboard](http://dappboard.com/), [trivial](https://trivial.co/), [Elementus](https://elementus.io/), and [Dappradar](https://dappradar.com).
 
 ##### Programmatically
 
@@ -104,14 +106,24 @@ Unique tokens are also known as NFTs or digital collectibles.
 `{ Set up an Aragon DAO for the group }`
 
 - [Aragon](https://rinkeby.aragon.org/#/)
+- [Colony](https://colony.io/)
 
 ##### Burner wallets
 
-- Play with [xdai.io](https://xdai.io/) to show how burner wallets and meta-transactions can be used to onboard new users into the ecosystem without gas.
-  - Wait, but what is DAI? [See below](#stablecoins)
-  - [xDai explanation](https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a)
-  - [Blockscout for xDai](https://blockscout.com/poa/dai)
-  - [Dai Bridge](https://dai-bridge.poa.network/)
+`{ Play with xdai to show how burner wallets and meta-transactions can be used to onboard new users into the ecosystem without gas.}`
+
+[xdai.io](https://xdai.io/)
+
+Likely follow-up questions:
+
+- Wait, but what is DAI? [See below](#stablecoins)
+- [xDai explanation](https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a)
+- [Blockscout for xDai](https://blockscout.com/poa/dai)
+- [Dai Bridge](https://dai-bridge.poa.network/)
+
+Other links:
+
+- [Universal login](https://universallogin.io/)
 
 ##### TCRs
 
