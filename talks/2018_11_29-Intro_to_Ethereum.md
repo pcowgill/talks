@@ -7,7 +7,7 @@ This is a workshop. Let's get acquainted with the different components of the cr
 What to expect:
 
 1. [Set up a wallet](#set-up-a-wallet)
-1. [Get test ethet](#get-test-ether)
+1. [Get test ether](#get-test-ether)
 1. [Explore the blockchain](#explore-the-blockchain)
 1. [Gas](#gas)
 1. [Collectibles](#collectibles)
