@@ -9,6 +9,8 @@
 
 The markdown file will all of this info we'll be talking about is available at [github.com/pcowgill/talks](https://github.com/pcowgill/talks)
 
+[bit.ly/intro-to-ethereum](http://bit.ly/intro-to-ethereum)
+
 In this workshop, let's get acquainted with the different components of the crypto / web3 stack and the current state of blockchain technology by using some tools from the Ethereum ecosystem.
 
 ### Any questions?
