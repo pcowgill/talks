@@ -57,7 +57,7 @@ There are lots of other great alternatives that we won't have time to try out to
 
 ### Explore the blockchain
 
-- Viewing the transactions in [Etherscan](https://rinkeby.etherscan.io/address/0x22a2820597492f12ee9eb294fc3e1b4b4a2b379c)
+- Viewing the transactions we just made in the `Get test Ether` section on [Etherscan](https://rinkeby.etherscan.io/address/0x32351cC47170015FeE88B9F793fE8829e8d81360)
 
 - Subscribe for notifications of transactions involving a certain address.
 
