@@ -22,26 +22,43 @@ Or if you're feeling shy, we can crowdsource questions online. Go to [sli.do](ht
 ### What to expect
 
 1. [Set up a wallet](#set-up-a-wallet)
+
 1. [Get test ether](#get-test-ether)
+
 1. [Explore the blockchain](#explore-the-blockchain)
+
 1. [Gas](#gas)
+
 1. [Unique tokens](#unique-tokens)
+
 1. [Other dapps](#other-dapps)
 
-   a. [DAOs](#daos)
-   a. [Burner wallets](#burner-wallets)
-   a. [TCRs](#tcrs)
-   a. [DeFi](#defi)
-   a. [Marketplaces](#marketplaces)
-   a. [Prediction markets](#prediction-markets)
+   1. [DAOs](#daos)
+
+   1. [Burner wallets](#burner-wallets)
+
+   1. [TCRs](#tcrs)
+
+   1. [DeFi](#defi)
+
+   1. [Marketplaces](#marketplaces)
+
+   1. [Prediction markets](#prediction-markets)
 
 1. [Stablecoins](#stablecoins)
+
 1. [Room for improvement](#room-for-improvement)
+
 1. [Nodes / clients](#nodes--clients)
+
 1. [Developing smart contracts](#developing-smart-contracts)
-   a. [ERC standards](#erc-standards)
-   a. [OpenZeppelin](#openzeppelin)
+
+   1. [ERC standards](#erc-standards)
+
+   1. [OpenZeppelin](#openzeppelin)
+
 1. [Why is this important](#why-is-this-important)
+
 1. [Privacy](#privacy)
 
 `// TODO: Add the links to the rest of the sections`
