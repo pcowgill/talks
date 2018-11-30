@@ -9,6 +9,8 @@
 
 The markdown file will all of this info we'll be talking about is available at [github.com/pcowgill/talks](https://github.com/pcowgill/talks)
 
+[bit.ly/intro-to-ethereum](http://bit.ly/intro-to-ethereum)
+
 In this workshop, let's get acquainted with the different components of the crypto / web3 stack and the current state of blockchain technology by using some tools from the Ethereum ecosystem.
 
 ### Any questions?
@@ -55,7 +57,7 @@ There are lots of other great alternatives that we won't have time to try out to
 
 ### Explore the blockchain
 
-- Viewing the transactions in [Etherscan](https://rinkeby.etherscan.io/address/0x22a2820597492f12ee9eb294fc3e1b4b4a2b379c)
+- Viewing the transactions we just made in the `Get test Ether` section on [Etherscan](https://rinkeby.etherscan.io/address/0x32351cC47170015FeE88B9F793fE8829e8d81360)
 
 - Subscribe for notifications of transactions involving a certain address.
 
