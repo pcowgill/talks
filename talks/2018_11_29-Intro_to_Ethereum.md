@@ -135,6 +135,12 @@ Unique tokens are also known as NFTs or digital collectibles.
 
 `{ Set up an Aragon DAO for the group }`
 
+Here's the DAO we set up for the group during the workshop:
+
+**Note: You should be logged into the MetaMask browser extension and load this page on a PC in order for it to show up properly.**
+
+https://rinkeby.aragon.org/#/gopherland.aragonid.eth/0x5d1a03d0ff225b2ab59373fb6bd91200991bca64
+
 - [Aragon](https://rinkeby.aragon.org/#/)
 - [Colony](https://colony.io/)
 
