@@ -22,16 +22,44 @@ Or if you're feeling shy, we can crowdsource questions online. Go to [sli.do](ht
 ### What to expect
 
 1. [Set up a wallet](#set-up-a-wallet)
+
 1. [Get test ether](#get-test-ether)
+
 1. [Explore the blockchain](#explore-the-blockchain)
+
 1. [Gas](#gas)
-1. [Collectibles](#unique-tokens)
+
+1. [Unique tokens](#unique-tokens)
+
 1. [Other dapps](#other-dapps)
 
-   a. [DAOs](#daos)
-   b. [Burner wallets](#burner-wallets)
+   1. [DAOs](#daos)
+
+   1. [Burner wallets](#burner-wallets)
+
+   1. [TCRs](#tcrs)
+
+   1. [DeFi](#defi)
+
+   1. [Marketplaces](#marketplaces)
+
+   1. [Prediction markets](#prediction-markets)
 
 1. [Stablecoins](#stablecoins)
+
+1. [Room for improvement](#room-for-improvement)
+
+1. [Nodes / clients](#nodes--clients)
+
+1. [Developing smart contracts](#developing-smart-contracts)
+
+   1. [ERC standards](#erc-standards)
+
+   1. [OpenZeppelin](#openzeppelin)
+
+1. [Why is this important](#why-is-this-important)
+
+1. [Privacy](#privacy)
 
 `// TODO: Add the links to the rest of the sections`
 
@@ -106,6 +134,12 @@ Unique tokens are also known as NFTs or digital collectibles.
 ##### DAOs
 
 `{ Set up an Aragon DAO for the group }`
+
+Here's the DAO we set up for the group during the workshop:
+
+**Note: You should be logged into the MetaMask browser extension and load this page on a PC in order for it to show up properly.**
+
+https://rinkeby.aragon.org/#/gopherland.aragonid.eth/0x5d1a03d0ff225b2ab59373fb6bd91200991bca64
 
 - [Aragon](https://rinkeby.aragon.org/#/)
 - [Colony](https://colony.io/)
