@@ -28,9 +28,7 @@ It's what basically all developers use.
 
 The markdown file with all of this info we'll be talking about is available at:
 
-`// TODO: Set up this link on bit.ly`
-
-[bit.ly/intro-to-ethereum-2019]()
+[bit.ly/intro-to-ethereum-2019](https://bit.ly/intro-to-ethereum-2019)
 
 Alternatively, you can get here directly via GitHub:
 
