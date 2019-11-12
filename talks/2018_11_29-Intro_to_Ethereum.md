@@ -7,7 +7,7 @@
 
 ### This workshop
 
-The markdown file will all of this info we'll be talking about is available at [github.com/pcowgill/talks](https://github.com/pcowgill/talks)
+The markdown file with all of this info we'll be talking about is available at [github.com/pcowgill/talks](https://github.com/pcowgill/talks)
 
 [bit.ly/intro-to-ethereum](http://bit.ly/intro-to-ethereum)
 
