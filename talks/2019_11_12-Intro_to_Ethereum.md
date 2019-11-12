@@ -49,24 +49,24 @@ Or if you're feeling shy, we can crowdsource questions online. Go to [sli.do](ht
 ### What to expect (pt. 1)
 
 1. [set up a wallet](#set-up-a-wallet)
-1. [get test ether](#get-test-ether)
-1. [Explore the blockchain](#explore-the-blockchain)
-1. [gas](#gas)
-1. [unique tokens](#unique-tokens)
-1. [dapps](#other-dapps)
-1. [stablecoins](#stablecoins)
+2. [get test ether](#get-test-ether)
+3. [explore the blockchain](#explore-the-blockchain)
+4. [gas](#gas)
+5. [unique tokens](#unique-tokens)
+6. [dapps](#dapps)
+7. [stablecoins](#stablecoins)
 
 ---
 
 ### What to expect (pt. 2)
 
-1. [room for improvement](#room-for-improvement)
-1. [nodes / clients](#nodes--clients)
-1. [developing smart contracts](#developing-smart-contracts)
-1. [why is this important](#why-is-this-important)
-1. [privacy](#privacy)
-1. [layer 2](#layer-2)
-1. [eth 2.0](#eth-2.0)
+8. [room for improvement](#room-for-improvement)
+9. [nodes / clients](#nodes--clients)
+10. [developing smart contracts](#developing-smart-contracts)
+11. [why is this important](#why-is-this-important)
+12. [privacy](#privacy)
+13. [layer 2](#layer-2)
+14. [eth 2.0](#eth-2.0)
 
 `// TODO: Add the links to the rest of the sections`
 
@@ -204,7 +204,7 @@ Unique tokens are also known as NFTs or digital collectibles.
 
 ---
 
-# Other dapps
+# Dapps
 
 ---
 
