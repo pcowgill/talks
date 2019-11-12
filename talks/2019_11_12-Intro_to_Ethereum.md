@@ -48,27 +48,25 @@ Or if you're feeling shy, we can crowdsource questions online. Go to [sli.do](ht
 
 ### What to expect (pt. 1)
 
-1. [set up a wallet](#set-up-a-wallet)
-2. [get test ether](#get-test-ether)
-3. [explore the blockchain](#explore-the-blockchain)
-4. [gas](#gas)
-5. [unique tokens](#unique-tokens)
-6. [dapps](#dapps)
-7. [stablecoins](#stablecoins)
+- [set up a wallet](#set-up-a-wallet)
+- [get test ether](#get-test-ether)
+- [explore the blockchain](#explore-the-blockchain-pt-2)
+- [gas](#gas)
+- [unique tokens](#unique-tokens)
+- [dapps](#dapps)
+- [stablecoins](#stablecoins)
 
 ---
 
 ### What to expect (pt. 2)
 
-8. [room for improvement](#room-for-improvement)
-9. [nodes / clients](#nodes--clients)
-10. [developing smart contracts](#developing-smart-contracts)
-11. [why is this important](#why-is-this-important)
-12. [privacy](#privacy)
-13. [layer 2](#layer-2)
-14. [eth 2.0](#eth-2.0)
-
-`// TODO: Add the links to the rest of the sections`
+- [room for improvement](#room-for-improvement)
+- [nodes / clients](#nodes--clients)
+- [developing smart contracts](#developing-smart-contracts)
+- [why is this important](#why-is-this-important)
+- [privacy](#privacy)
+- [layer 2](#layer-2)
+- [eth 2.0](#eth-2.0)
 
 ---
 
@@ -87,6 +85,12 @@ There are lots of other great alternatives that we won't have time to try out to
 **`{ Walk around scanning QR codes to send ETH on the Rinkeby testnet }`**
 
 - While you wait, jump down below to the [Explore the blockchain](#explore-the-blockchain) section.
+
+---
+
+### Explore the blockchain (pt. 1)
+
+- Viewing the transactions we just made in the `Get test ether` section on [Etherscan](https://rinkeby.etherscan.io/address/0x1ae4455438316a80E93e1Bb1F6EEbF049eb2A0fB)
 
 - Sending Ether between each other **`{ see next slide }`**
 
@@ -126,11 +130,9 @@ Likely follow-up questions:
 
 ---
 
-### Explore the blockchain
+### Explore the blockchain (pt. 2)
 
-- Viewing the transactions we just made in the `Get test ether` section on [Etherscan](https://rinkeby.etherscan.io/address/0x1ae4455438316a80E93e1Bb1F6EEbF049eb2A0fB)
-
-- Subscribe for notifications of transactions involving a certain address.
+- Subscribe for notifications of transactions involving a certain address on etherscan.
 
 Here are some alternatives to Etherscan:
 
@@ -258,6 +260,12 @@ Unique tokens are also known as NFTs or digital collectibles.
 
 ---
 
+##### Music
+
+[Audius](https://audius.co/)
+
+---
+
 ##### Identity
 
 [3Box](https://3box.io/)
@@ -272,6 +280,12 @@ Unique tokens are also known as NFTs or digital collectibles.
 - [Decentraland Marketplace](https://market.decentraland.org/)
 - [Gitcoin](https://gitcoin.co/)
 - [0x](https://www.0xproject.com/)
+
+---
+
+##### Other
+
+[ENS](https://ens.domains/)
 
 ---
 
@@ -324,7 +338,8 @@ Or [Buidler, ethers.js, Waffle, and TypeChain](https://hackernoon.com/the-new-so
 1. [Twitter thread](https://twitter.com/naval/status/877467629308395521) with a historical perspective on governance by Naval Ravikant
 1. [AI -> tyranny, blockchain -> democracy](https://www.theatlantic.com/magazine/archive/2018/10/yuval-noah-harari-technology-tyranny/568330/)
 1. [The Truth Machine](https://smile.amazon.com/Truth-Machine-Blockchain-Future-Everything/dp/1250114578/)
-1. [Social justice](https://www.meetup.com/Blockchain-for-Social-Good-Chicago/)
+1. [Social justice](https://medium.com/swlh/crypto-for-activism-four-models-of-protest-on-the-ethereum-blockchain-61ca5d07ac47)
+1. [Social good](https://www.meetup.com/Blockchain-for-Social-Good-Chicago/)
 1. [Podcast episode about why decentralization matters](https://www.breaker.audio/a16z/e/35542740)
 1. [Toy markets](https://blog.ycombinator.com/toy-markets/)
 1. Zero platform risk -> the great unbundling of front end and back end (and of individual front end features). Users get "right to exit" meaning that they can elect to use alternative clients without losing all of their data and the network effect of the platform, and the tech tycoons of the future can't prevent them from doing so.
