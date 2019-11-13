@@ -76,7 +76,7 @@ While there are lots of choices for wallets, it will be the simplest if you all 
 
 I'll send you all testnet ETH shortly using the [testnet version](https://testflight.apple.com/join/r9q5stIb) of the [Gnosis Safe](https://safe.gnosis.io/) (a different Ethereum wallet that has cool features like account recovery).
 
-There are lots of other great alternatives that we won't have time to try out today including: [Argent](https://www.argent.xyz), [Coinbase Wallet](https://wallet.coinbase.com/), [Status](https://status.im/), [Trust](https://trustwallet.com/), and [Balance](https://balance.io/).
+There are lots of other great alternatives that we won't have time to try out today including: [Argent](https://www.argent.xyz), [Coinbase Wallet](https://wallet.coinbase.com/), [Status](https://status.im/), and [Trust](https://trustwallet.com/).
 
 ---
 
