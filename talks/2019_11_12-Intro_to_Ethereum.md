@@ -219,6 +219,10 @@ Unique tokens are also known as NFTs or digital collectibles.
 
 **`{ Set up an Aragon DAO for the group }`**
 
+Here's the link for the Rinkeby testnet DAO we created during the workshop:
+
+[rinkeby.aragon.org/#/nublock/](https://rinkeby.aragon.org/#/nublock/)
+
 ---
 
 #### TCRs
