@@ -378,7 +378,11 @@ We'll also discuss how private technologies like zero-knowledge proofs could be 
 
 ### Layer 2
 
-##### [state channels](https://statechannels.org/)
+#### [state channels](https://statechannels.org/)
+
+#### Rollup
+
+[optimistic vs. zk rollup comparison](https://medium.com/matter-labs/optimistic-vs-zk-rollup-deep-dive-ea141e71e075)
 
 ##### [optimistic rollup](https://plasma.group/)
 
@@ -386,7 +390,7 @@ We'll also discuss how private technologies like zero-knowledge proofs could be 
 
 ##### zk rollup
 
-hard to choose a link - lots of teams working on this
+[Matter Labs](https://matter-labs.io/)
 
 ---
 
