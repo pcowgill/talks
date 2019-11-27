@@ -408,5 +408,7 @@ We'll also discuss how private technologies like zero-knowledge proofs could be 
 - eWASM
 
 https://hackmd.io/e4cNiocFTiS67j6yJ_XHPw
+
 https://hackmd.io/UzysWse1Th240HELswKqVA
+
 https://docs.ethhub.io/other/ethereum-2.0-ama/
