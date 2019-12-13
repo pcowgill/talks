@@ -115,7 +115,9 @@ Here are some alternatives to Etherscan:
 ### Notifications
 
 Etherscan
+
 [Tenderly](https://tenderly.dev)
+
 [Dagger](https://matic.network/dagger/)
 
 ---
@@ -137,6 +139,8 @@ _Note: Programmatic tools covered later in the "reading data" section of this ta
 ![DeFi user analysis](./supplemental/images/UserNetworkOfDeFiProtocols.png "DeFi user analysis")
 
 [Source](https://medium.com/alethio/the-defi-series-monitoring-activities-user-community-growth-f274946d0ac9)
+
+[If image doesn't load](https://raw.githubusercontent.com/pcowgill/talks/master/talks/supplemental/images/UserNetworkOfDeFiProtocols.png)
 
 ---
 
@@ -267,7 +271,9 @@ _(caveat that this is kind of a DAO and an identity solution too)_
 ##### Art
 
 [Clovers](https://clovers.network/)
+
 [SuperRare](https://www.superrare.co/)
+
 [Known Origin](https://knownorigin.io/)
 
 ##### Music
@@ -279,6 +285,7 @@ _(caveat that this is kind of a DAO and an identity solution too)_
 ##### Identity
 
 [3Box](https://3box.io/)
+
 [BrightID](https://www.brightid.org/)
 
 ---
