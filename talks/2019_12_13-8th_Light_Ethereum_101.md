@@ -22,7 +22,9 @@ this markdown as slides within a text editor - VS Code, to be specific -->
 ### [@paulcowgill](https://twitter.com/paulcowgill)
 
 Freelance full-stack Eth dev.
+
 Building [Tasit](https://tasit.io) project.
+
 I help with organizing the [Chicago Ethereum Meetup](https://www.meetup.com/Chicago-Ethereum-Meetup/).
 
 - [Twitter](https://twitter.com/paulcowgill)
@@ -57,6 +59,11 @@ Or if you're feeling shy, we can crowdsource questions online. Go to [sli.do](ht
 
 ---
 
+Here is the direct link to the sli.do with our questions, etc. from during the talk:
+https://app.sli.do/event/qbv9lvdr/live/questions
+
+---
+
 ### What to expect
 
 1. **Explore:** [Explore](#explore) some data on the blockchain visually.
@@ -88,6 +95,12 @@ There are lots of other great alternatives that we won't have time to try out to
 **`{ Walk around scanning QR codes to send ETH on the Rinkeby testnet }`**
 
 - You can view the transactions we're making on [Etherscan](https://rinkeby.etherscan.io/address/0x1ae4455438316a80E93e1Bb1F6EEbF049eb2A0fB#internaltx)
+
+---
+
+### Or get test ether this way
+
+[bit.ly/8th-light-linkdrop](http://bit.ly/8th-light-linkdrop)
 
 ---
 
@@ -217,6 +230,13 @@ _(Note: Hopefully that won't be the case in the future.)_
 
 ---
 
+Here's the Aragon DAO we created during the workshop:
+https://rinkeby.aragon.org/#/somethingssilly/0xc115960ace21e4d87b951ef11fdfdb38e170d19c/
+
+_Note that there are two s's at the beginning of silly - a typo_
+
+---
+
 #### TCRs
 
 [Humanity DAO](https://www.humanitydao.org/)
@@ -257,7 +277,7 @@ _(caveat that this is kind of a DAO and an identity solution too)_
 
 ##### Games
 
-`{ Optional: Purchase a digital collectible and exchanging it with other classmates. }`
+`{ Optional: Purchase a digital collectible and exchange it with others. }`
 
 - [CryptoKitties](https://www.cryptokitties.co/)
 - Lots of others
@@ -279,6 +299,14 @@ _(caveat that this is kind of a DAO and an identity solution too)_
 ##### Music
 
 [Audius](https://audius.co/)
+
+---
+
+##### Social
+
+Cent
+
+Peepeth
 
 ---
 
