@@ -118,13 +118,11 @@ ___
 
 
 ---
-Layout: Split
-
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/sea-ocean-wave-vehicle-lava-screenshot-80695-pxhere.com.jpg) 
-+++
 # Boiling the ocean?
 ___
-We're not trying to boil the ocean here - our SDK makes use of other great SDKs internally!
+### 👨🏼‍🍳🔥🌊
+___
+Our SDK makes use of other great SDKs internally.
 
 
 
@@ -231,5 +229,13 @@ ___
 * Gitcoin Grants
 
 
+
+---
+___
+___
+___
+___
+___
+> ### Don't use too many browser APIs in your js SDK.
 
 
