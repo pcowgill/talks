@@ -4,7 +4,7 @@ Exact date T.B.D.
 
 ### Native mobile Ethereum dapps: Why, how, and what to do about censorship
 
-_Slides for this presentation coming soon_
+[Slides for this presentation](./supplemental/2020-02-xx-ETHDenver_slides.md)
 
 [Event link](https://www.ethdenver.com/)
 
