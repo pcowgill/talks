@@ -1,5 +1,5 @@
 Theme: notes
-Palet: Green
+Palet: Red
 Size: Wide
 
 
@@ -7,144 +7,199 @@ Size: Wide
 Layout: Title
 
 # Native mobile Ethereum dapps
-## Paul Cowgill, Tasit Labs
+## Paul Cowgill 📱 Tasit Labs
 
 
 ---
 Layout: Default
 
 # Outline
-___
+<br />
+
 ### **why**
-___
+<br />
+
+### **what about censorship?**
+<br />
 
 ### **how**
-___
-### **what about censorship?**
-
 
 ---
 Layout: Default
 
-# Who am I?
+# who am I?
+<br />
 
-#### [@paulcowgill](https://twitter.com/paulcowgill)
+### [@paulcowgill](https://twitter.com/paulcowgill)
+<br />
 
 ![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/PaulStylized.png) 
 
 ---
 Layout: SectionTitle
 
-# Why
+# why
 
 ---
 Layout: Split
 
-## Phones
-___
+## phones
+<br />
+
 ### Young people worldwide do most things on the internet from their phones.
-___
+<br />
+
 {{iphone}}
-___
+<br />
 
 
 +++
-## Laptops
-___
+## laptops
+<br />
+
 ### And yet we're building web-based dapps optimized for use on laptops.
-___
+<br />
+
 {{browser}}
-___
+<br />
 
 
 
 
 ---
 
-# Native vs. web
-___
+# native vs. web
+<br />
+
 Native mobile apps clearly are the current winner in web 2.
-___
-A slightly larger swath of disengaged users might try a mobile web app first, but the “sticky”, power users prefer native mobile apps.
+
+<br />
+
+A slightly larger swath of **disengaged** users might try a mobile web app first, but the “sticky”, **power users** prefer native mobile apps.
 
 
-{{Line-Chart}}
-- time:1,3,10,30,100,300
+---
 
+# when is mobile the right fit?
+<br />
+
+* high frequency
+* real time
+* biometric auth
+* convenient, local data persistence required
 
 ---
 Layout: SectionTitle
 
-# What about censorship?
+# what about censorship?
 
 
 ---
-# Contract-based accounts
-___
-The main concern when talking about building native mobile web 3 apps is censorship, but using **contract-based accounts** means that there’s no loss of funds or ability to use the contracts with the same “account” even in the case of an Apple or Google takedown.
+# censorship
+<br />
 
+The main concern when talking about building native mobile web 3 apps is censorship, but using contract-based accounts (or WalletConnect) means that there’s no loss of funds or ability to use the contracts with the same “account” even in the case of censorship.
+
+
+---
+
+# scenarios with React Native
+<br />
+
+### Apple takedown?
+Works on Android
+<br />
+<br />
+
+### Google takedown?
+
+Works on iOS
+<br />
+<br />
+
+### Both platforms censored?
+**react-native-web** and/or sharing code with a React codebase
+<br />
+
+---
+<br />
+<br />
+<br />
+<br />
+
+> ## Policies change along with the zeitgeist
 
 ---
 Layout: SectionTitle
 
-# How
+# how
 
 
 ---
-# Building native mobile dapps
-___
+# building native mobile dapps
+<br />
+
 Let's talk best practices for building a native mobile Ethereum dapp with a simple UX without any decentralization tradeoff.
 
 ---
 Layout: HeaderAndColumns
 
-# Tasit SDK
-#### We're building an SDK to make this simpler
+# what is needed to do this well?
+<br />
 
 +++
-___
+<br />
+
 * in-dapp fiat onramps
 * The Graph
 * in-dapp ephemeral accounts
 * in-dapp contract-based accounts
 * ENS
 +++
-___
+<br />
+
 * meta-transactions
 * deep linking
 * biometric auth
 * push notifications
 * L2
 
+---
+Background: /Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/TasitLogoSvg3072.png
+
 
 ---
-# Boiling the ocean?
-___
-### 👨🏼‍🍳🔥🌊
-___
-Our SDK makes use of other great SDKs internally.
+# boiling the ocean?
+<br />
+<br />
+<br />
 
-
-
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Cooking-Man-Emoji.png) 
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Water-Wave-Emoji.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Fire-Emoji.png)
 
 ---
 Layout: SectionTitle
 
-# In-dapp wallets
-## (ephemeral and contract-based)
+# onboarding
 
 ---
-___
-___
-___
-___
-___
+# in-dapp fiat onramps
+
+---
+# in-dapp wallets
+<br />
+<br />
+
 > ### To attract the next wave of Ethereum users, we should assume that users don’t have a wallet yet.
 
 ---
-# A single, fluid UX
-___
+# a single, fluid UX
+<br />
+
 Let’s set them up with their first "wallet” in the app they want to use instead of kicking them elsewhere to a separate app to set one up before they can get started.
+<br />
+
 
 ```js
 const a = 10;
@@ -155,74 +210,98 @@ console.log(a);
 
 
 ---
-# Why now?
-___
-___
-___
-___
+# why now?
+<br />
+<br />
+<br />
+<br />
+
 ### In-dapp fiat onramps recently have made this a viable option.
 
 
 ---
-# Is it worth making a new account?
-___
+# is it worth making a new account?
+<br />
+
 For new users, they don't have another account anyway, and this could evolve into their main account.
-___
+<br />
+<br />
+
 A new account is better for OPSEC and accounting reasons anyway.
 
 ---
-Layout: SectionTitle
-
-# in-dapp fiat onramps
+# (ephemeral and/or contract-based)
 
 ---
 Layout: SectionTitle
 
-# The Graph
+# ongoing UX
+
 ---
-Layout: SectionTitle
+
+# the graph
+---
 
 # ENS
 ---
-Layout: SectionTitle
 
 # meta-transactions
 ---
-Layout: SectionTitle
 
-# Mobile-specific features
-## (deep linking, biometric auth, push notifications)
+# 3Box
 ---
 Layout: SectionTitle
 
-# L2
+# mobile-specific features
+
+---
+
+# deep linking
+---
+
+# biometric auth
+---
+
+# push notifications
 ---
 Layout: SectionTitle
 
-# In-dapp wallets
-
+# scaling and privacy
 ---
-# Dapps let you do things you couldn't do with a capp
-___
+# L2, Eth2, etc.
+---
+Layout: SectionTitle
+
+# wrapping up
+---
+
+# dapps are useful
+<br />
+
 Dapps already deliver significant value and “a-ha” moments to crypto-native “innovators” in ways that will eventually be useful for mainstream people too.
 
 
 ---
 # UX is the problem
-___
+<br />
+
 So the only reason (setting the scaling discussion aside for the moment) that there aren’t lots of users flooding the network yet is that there aren’t sufficiently simple tools for great web 2 product teams to build native mobile apps for Ethereum dapps.
 ---
-# User interviews
-___
+# user interviews
+<br />
+
 We're actively doing user interviews to shape which features are prioritized.
-___
+<br />
+
 Please reach out on Twitter to **[@paulcowgill](https://twitter.com/paulcowgill)**
 
 ---
-# Thanks
-___
+# thanks
+<br />
+
 Work on Tasit is supported in part by:
-___
+<br />
+<br />
 
 * Ethereum Foundation
 * Gnosis GECO
@@ -231,11 +310,11 @@ ___
 
 
 ---
-___
-___
-___
-___
-___
+<br />
+<br />
+<br />
+<br />
+
 > ### Don't use too many browser APIs in your js SDK.
 
 
