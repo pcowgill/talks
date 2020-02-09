@@ -3,7 +3,6 @@ Palet: Green
 Size: Wide
 
 ---
-
 Layout: Title
 
 # Native mobile Ethereum dapps
@@ -11,7 +10,6 @@ Layout: Title
 ## Paul Cowgill 📱 Tasit Labs
 
 ---
-
 Layout: Default
 
 # Outline
@@ -29,7 +27,6 @@ Layout: Default
 ### **how**
 
 ---
-
 Layout: Default
 
 # who am I?
@@ -40,20 +37,17 @@ Layout: Default
 
 <br />
 
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/PaulStylized.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/PaulStylized.png)
 
 ---
-
 Layout: SectionTitle
 
 # why
 
 ---
-
 Layout: Split
 
 ## phones
-
 <br />
 
 ### Young people worldwide do most things on the internet from their phones.
@@ -104,7 +98,6 @@ A slightly larger swath of **disengaged users** might try a mobile web app first
 - uses camera or GPS
 
 ---
-
 Layout: SectionTitle
 
 # what about censorship?
@@ -153,7 +146,6 @@ Works on iOS
 > ## Policies change along with the zeitgeist.
 
 ---
-
 Layout: SectionTitle
 
 # how
@@ -169,7 +161,6 @@ Layout: SectionTitle
 Let's talk best practices for building a native mobile Ethereum dapp with a simple UX without any decentralization tradeoff.
 
 ---
-
 Layout: HeaderAndColumns
 
 # what is needed to do this well?
@@ -186,7 +177,8 @@ Layout: HeaderAndColumns
 - in-dapp wallets
   _ burner accounts
   _ contract-based accounts
-  +++
+ 
++++
 
 ### ongoing UX
 
@@ -209,21 +201,17 @@ Layout: HeaderAndColumns
 - L2
 
 ---
-
-Background: /Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/TasitLogoSvgAlt3072.png
+Background: /Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/TasitLogoSvgAlt3072.png
 
 ---
-
 Layout: SectionTitle
 
 # onboarding
 
 ---
-
 # in-dapp fiat onramps
 
 ---
-
 # in-dapp wallets
 
 <br />
@@ -232,7 +220,6 @@ Layout: SectionTitle
 > ### To attract the next wave of Ethereum users, we should assume that users don’t have a wallet yet.
 
 ---
-
 # a single, fluid UX
 
 <br />
@@ -249,7 +236,6 @@ console.log(address); // '0x...'
 ```
 
 ---
-
 # why now?
 
 <br />
@@ -260,7 +246,6 @@ console.log(address); // '0x...'
 ### In-dapp fiat onramps recently have made this a viable option.
 
 ---
-
 # another new account?
 
 <br />
@@ -272,7 +257,6 @@ For new users, they don't have another account anyway, and this could evolve int
 A new account is better for OPSEC and accounting reasons anyway.
 
 ---
-
 # (burner and contract-based)
 
 <br />
@@ -284,7 +268,6 @@ Account.upgrade(burnerWallet);
 ```
 
 ---
-
 Layout: SectionTitle
 
 # ongoing UX
@@ -356,13 +339,11 @@ action.sendForFree(); // meta-tx broadcast
 # 3Box
 
 ---
-
 Layout: SectionTitle
 
 # mobile-specific features
 
 ---
-
 Layout: HeaderAndColumns
 
 # deep linking
@@ -386,7 +367,6 @@ Layout: HeaderAndColumns
 # push notifications
 
 ---
-
 Layout: SectionTitle
 
 # boiling the ocean?
@@ -394,12 +374,11 @@ Layout: SectionTitle
 <br />
 <br />
 
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Cooking-Man-Emoji.png)
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Water-Wave-Emoji.png)
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Fire-Emoji.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/Cooking-Man-Emoji.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/Water-Wave-Emoji.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/Fire-Emoji.png)
 
 ---
-
 Layout: SectionTitle
 
 # scaling and privacy
@@ -423,7 +402,6 @@ state channels, (optimistic|zk) rollup
 ### Privacy
 
 ---
-
 Layout: SectionTitle
 
 # wrapping up
@@ -439,13 +417,13 @@ Layout: SectionTitle
 Dapps **already** deliver significant value and “a-ha” moments to **crypto-native** “innovators” in ways that could be useful for mainstream people too if packaged correctly.
 
 ---
-
 # UX is the problem
 
 <br />
 <br />
 
-## So the only reason (setting the scaling discussion aside for the moment) that there aren’t lots of users flooding the network yet is that there aren’t sufficiently simple tools for **great web 2 product teams** to build native mobile apps for Ethereum dapps.
+So the only reason (setting the scaling discussion aside for the moment) that there aren’t lots of users flooding the network yet is that there aren’t sufficiently simple tools for **great web 2 product teams** to build native mobile apps for Ethereum dapps.
+---
 
 # where to go from here
 
@@ -459,7 +437,6 @@ We're actively doing **user interviews** and **developer interviews** to shape w
 Please reach out on Twitter to **[@paulcowgill](https://twitter.com/paulcowgill)**
 
 ---
-
 Layout: SectionTitle
 
 # thanks
@@ -472,12 +449,11 @@ Layout: SectionTitle
 <br />
 <br />
 
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/geco_rgb_sponsor_white.png)
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/ecosystem-support.svg)
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/gitcoin_logo_white.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/geco_rgb_sponsor_white.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/ecosystem-support.svg)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/2020-02-xx-ETHDenver/images/gitcoin_logo_white.png)
 
 ---
-
 Layout: HeaderAndColumns
 +++
 
