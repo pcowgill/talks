@@ -75,18 +75,20 @@ Native mobile apps clearly are the current winner in web 2.
 
 <br />
 
-A slightly larger swath of **disengaged** users might try a mobile web app first, but the “sticky”, **power users** prefer native mobile apps.
+A slightly larger swath of **disengaged users** might try a mobile web app first, but the “sticky”, **power users** prefer native mobile apps.
 
 
 ---
 
-# when is mobile the right fit?
+# when to use native mobile?
 <br />
 
 * high frequency
 * real time
+* low(ish) stakes—although this is changing
 * biometric auth
-* convenient, local data persistence required
+* convenient, reliable, local data persistence required
+* uses camera or GPS
 
 ---
 Layout: SectionTitle
@@ -97,8 +99,11 @@ Layout: SectionTitle
 ---
 # censorship
 <br />
+<br />
+<br />
+<br />
 
-The main concern when talking about building native mobile web 3 apps is censorship, but using contract-based accounts (or WalletConnect) means that there’s no loss of funds or ability to use the contracts with the same “account” even in the case of censorship.
+Using **contract-based accounts** (or **WalletConnect**) means that there’s no loss of funds or ability to use the contracts with the same “account” even in the case of censorship.
 
 
 ---
@@ -127,7 +132,7 @@ Works on iOS
 <br />
 <br />
 
-> ## Policies change along with the zeitgeist
+> ## Policies change along with the zeitgeist.
 
 ---
 Layout: SectionTitle
@@ -148,35 +153,38 @@ Layout: HeaderAndColumns
 <br />
 
 +++
+
+### onboarding
 <br />
 
 * in-dapp fiat onramps
-* The Graph
-* in-dapp ephemeral accounts
-* in-dapp contract-based accounts
-* ENS
+* in-dapp wallets
+	* burner accounts
+	* contract-based accounts
 +++
+
+### ongoing UX
 <br />
 
+* ENS
+* The Graph
+* optimistic UI
 * meta-transactions
+
++++
+
+
+### mobile stuff
+<br />
+
 * deep linking
 * biometric auth
 * push notifications
 * L2
 
 ---
-Background: /Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/TasitLogoSvg3072.png
+Background: /Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/TasitLogoSvgAlt3072.png
 
-
----
-# boiling the ocean?
-<br />
-<br />
-<br />
-
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Cooking-Man-Emoji.png) 
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Water-Wave-Emoji.png)
-![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Fire-Emoji.png)
 
 ---
 Layout: SectionTitle
@@ -202,9 +210,11 @@ Let’s set them up with their first "wallet” in the app they want to use inst
 
 
 ```js
-const a = 10;
-a = a + 5;
-console.log(a);
+import { Account } from "tasit-sdk";
+const burnerWallet = Account.create();
+const { address } = burnerWallet;
+console.log(address); // '0x...'
+// ...
 ```
 
 
@@ -220,7 +230,7 @@ console.log(a);
 
 
 ---
-# is it worth making a new account?
+# another new account?
 <br />
 
 For new users, they don't have another account anyway, and this could evolve into their main account.
@@ -230,7 +240,15 @@ For new users, they don't have another account anyway, and this could evolve int
 A new account is better for OPSEC and accounting reasons anyway.
 
 ---
-# (ephemeral and/or contract-based)
+# (burner and contract-based)
+<br />
+<br />
+<br />
+
+
+```js
+Account.upgrade(burnerWallet)
+```
 
 ---
 Layout: SectionTitle
@@ -239,13 +257,61 @@ Layout: SectionTitle
 
 ---
 
+# optimistic API
+<br />
+
+```js
+import { Contract } from "tasit-sdk";
+
+const { NFT } = Contract;
+
+const contractAddress = '0x0E86...333'
+
+const contract = new NFT(contractAddress);
+
+const action = contract.safeTransferfrom(/*...*/);
+action.on("error", errorListener);
+action.on("enoughConfirmations", successListener);
+action.send(); // broadcast
+
+// Do optimistic UI updates immediately, while making sure
+// to update the UI again when there are enough
+// confirmations for your use case
+// ...
+```
+
+---
+
 # the graph
+<br />
+<br />
+
+
+```js
+const action = contract.safeTransferfrom(/*...*/);
+action.on("error", errorListener);
+action.on("presentInTheGraph", successListener);
+action.send(); // broadcast
+// ...
+```
 ---
 
 # ENS
 ---
 
 # meta-transactions
+<br />
+<br />
+<br />
+
+```js
+const action = contract.myFavoriteMethod(/*...*/);
+action.on("error", errorListener);
+action.on("enoughConfirmations", successListener);
+action.sendForFree(); // meta-tx broadcast
+
+// ...
+```
 ---
 
 # 3Box
@@ -263,12 +329,26 @@ Layout: SectionTitle
 ---
 
 # push notifications
+
+
+---
+# boiling the ocean?
+<br />
+<br />
+<br />
+
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Cooking-Man-Emoji.png) 
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Water-Wave-Emoji.png)
+![](/Users/paulcowgill/Code/general/paul-work-related/talks/talks/supplemental/images/Fire-Emoji.png)
 ---
 Layout: SectionTitle
 
 # scaling and privacy
 ---
-# L2, Eth2, etc.
+# L2
+## state channels + (optimistic|zk) rollup
+---
+# Eth2
 ---
 Layout: SectionTitle
 
@@ -304,9 +384,81 @@ Work on Tasit is supported in part by:
 <br />
 
 * Ethereum Foundation
-* Gnosis GECO
-* Gitcoin Grants
+<br />
 
+* Gnosis GECO
+<br />
+
+
+* Gitcoin Grants
+<br />
+
+`// TODO: Maybe add logos`
+
+---
+Layout: HeaderAndColumns
++++
+### 🤐
+
+### **Website**
+
+### [tasit.io](https://tasit.io)
+<br />
+<br />
+
+### 🐦
+
+### **Twitter**
+
+### [@TasitProject](https://twitter.com/TasitProject)
+<br />
+<br />
+
+### 💬
+
+### **Discord**
+
+### [bit.ly/tasit-discord](https://bit.ly/tasit-discord)
+<br />
+<br />
+
+### 💬
+
+### **Telegram**
+
+### [t.me/tasitproject](t.me/tasitproject)
+
++++
+
+### 💻
+
+### **GitHub**
+
+### [github.com/tasitlabs](https://github.com/tasitlabs)
+<br />
+<br />
+
+### 📄
+
+### **Docs**
+
+### [docs.tasit.io](https://docs.tasit.io)
+<br />
+<br />
+
+### 📝
+
+### **Medium**
+
+### [medium.com/tasit](https://medium.com/tasit)
+<br />
+<br />
+
+### 💡
+
+### **Feature requests**
+
+### [feedback.tasit.io](https://feedback.tasit.io/feature-requests)
 
 
 ---
