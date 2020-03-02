@@ -28,6 +28,6 @@
 
 [8th Light Ethereum 101](./talks/2019_12_13-8th_Light_Ethereum_101.md)
 
-##### 2020/02/xx
+##### 2020/02/14
 
-[ETHDenver](./talks/2020_02_xx-ETHDenver.md)
+[ETHDenver](./talks/2020_02_14-ETHDenver.md)
