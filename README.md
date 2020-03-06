@@ -10,11 +10,11 @@
 
 ##### 2019/02/01
 
-[Windy City DevFest Ethereum Tasit](./talks/2019_02_01-Windy-City-DevFest-Ethereum-Tasit.md)
+[Windy City DevFest Ethereum Tasit](./talks/2019_02_01-Windy_City_DevFest_Ethereum_Tasit.md)
 
 ##### 2019/02/20
 
-[React Chicago Mobile Dapps React Native](./talks/2019_02_20-React-Chicago-Mobile-Dapps-React-Native.md)
+[React Chicago Mobile Dapps React Native](./talks/2019_02_20-React_Chicago_Mobile_Dapps_React_Native.md)
 
 ##### 2019/08/22
 
