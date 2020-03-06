@@ -4,7 +4,7 @@ Fri, Feb 14, 2020
 
 ### Native mobile Ethereum dapps: Why, how, and what to do about censorship
 
-[Slides for this presentation](./supplemental/2020-02-14-ETHDenver/2020-02-14-ETHDenver_slides.pdf)
+[Slides for this presentation](./supplemental/2020-02-14-ETHDenver/2020-02-14-ETHDenver.pdf)
 
 [Event link](https://www.ethdenver.com/)
 
