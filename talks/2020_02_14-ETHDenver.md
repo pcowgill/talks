@@ -6,6 +6,8 @@ Fri, Feb 14, 2020
 
 [Slides for this presentation](./supplemental/2020_02_14-ETHDenver/2020_02_14-ETHDenver.pdf)
 
+[Video of presentation](https://youtu.be/LLm9ZQjSxrg)
+
 [Event link](https://www.ethdenver.com/)
 
 ##### Description
